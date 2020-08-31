@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'/>
+    <title>component div</title>
+   <style>
+       
+body{ margin:0;
+        font-size: 80%;
+        font-family: fantasy;
+       }
+
+h1{
+           text-align: center;
+           background-color: rgb(0,0,0);
+           margin-bottom: 0px;
+    margin-top:0;
+           padding: 20px;
+    
+           color: rgb(255,255,255);
+        }
+       
+.mainbox{
+           box-sizing: border-box;
+           border: 20px solid rgb(0,0,0);
+           background-color: rgb(255,255,255);
+           color: rgb(0 ,0 ,0);
+           max-width: 1000px;
+           margin: auto;
+           overflow: hidden;
+       }
+       
+
+       
+.col{
+           box-sizing: border-box;
+           width: 33.3%;
+           border: 2px solid rgb(0,0,0);
+           float:left;
+           }
+.caption{
+           text-align: center;
+           font-size: 1.5em;
+           padding-top 10px;
+           padding-bottom: 10px;
+           }
+       
+.footer{
+           background-color: rgb(0,0,0);  
+           color: rgb(255,255,255);
+           padding:20px 50px;
+           text-align: right;
+           }
+       
+        /*----NAVIGATION-----*/   
+       
+       .nav{
+           text-decoration: none;
+           padding: 0;
+           margin: 0;
+           background-color: rgb(252, 247, 255)
+           }
+     
+       .nav li{ 
+           display: inline;
+        }
+       
+       .nav li a{
+           display: inline-block;
+           padding: 20px 50px;
+       }
+       
+       a:link{
+           text-decoration: none;
+           background-color: rgb(0,0,0);
+           color: rgb(255,255,255);
+       }
+       
+       a:visited{
+           background-color: rgb(252, 252, 227);
+           color: rgb(0,0,0);
+       }
+       
+       a:hover{
+           background-color: rgb( 225,225,229);
+            color: rgb(255,255,255);
+       }
+       
+
+.img-responive{
+           max-width: 100%;
+           display:block;
+           margin:auto;
+       }
+       
+     </style>
+      </head>
+    <body>
+        <!-- list of links -->
+         <div> 
+        <ul class="nav">
+        <li><a href="#leuven">  city  </a></li>
+        <li><a href="#city">  castles </a></li>
+        <li><a href="#festifals">  attractions  </a></li>
+        </ul>
+        </div>
+<div class="mainbox" >
+    
+<!---hero picture--->
+  <div >
+<h1> Where to go in Belgium</h1>
+<img class="img-responive"  src="images/heropicturecastle_belgiumname.jpg" alt=" castle hero picture"> 
+<div class="caption"> Belgium, a country in Western Europe, is known for medieval towns, Renaissance architecture and as headquarters of the European Union and NATO. The country has distinctive regions including Dutch-speaking Flanders to the north, French-speaking Wallonia to the south and a German-speaking community to the east. The bilingual capital, Brussels, has ornate guildhalls at Grand-Place and elegant art-nouveau buildings. </div>
+ </div>
+   <hr>  
+<!---first three--->
+<div  style="border: 5px solid blue; overflow: hidden;">
+    <div class="col" ><h1>main street </h1>
+<img class="img-responive"  src="images/leuvenstreetcorner.JPG" alt="street corner in the belgium city of leuven">
+<div class="caption"> the main street in the city Leuven in full with markets and shops. Everyyear there are many festifals going up this road.  </div>
+ </div>
+
+<div class="col" >
+<h1>old road</h1>
+<img class="img-responive"  src="images/oldleuvenbuildings.jpg" alt=" old road buildings in leuven with amazing history">
+<div class="caption">Leuven was one of the largest cities in Europe in the 14th century,they still preserve the houses of those who worked there.</div>
+ </div>
+
+<div class="col" >
+<h1>Stella artois</h1>
+<img class="img-responive"  src="images/stellaartois.jpg" alt="famous stella artois building in leuven" >
+<div class="caption"> Stella artois beer is famous all around the world which was first brewed by Brouwerij Artois in Leuven, Belgium, in 1926. </div>
+ </div>
+    </div>
+    
+<!---second three three--->
+<div  style="border: 5px solid blue; overflow: hidden;">
+    <div class="col" >
+<h1>main street </h1>
+<img class="img-responive"  src="images/curch_priest_living.jpg" alt="street corner in the belgium city of leuven">
+<div class="caption"> this particular castle is where the pastors lived and some still live here however throughout history there where 1000 of pastors that lived here , today there are less than 100. It is known for weddings and other social events  </div>
+ </div>
+
+<div class="col" >
+<h1>old road</h1>
+<img class="img-responive"  src="images/oldleuvenbuildings.jpg" alt=" old road buildings in leuven with amazing history">
+<div class="caption">Leuven was one of the largest cities in Europe in the 14th century,they still preserve the houses of those who lived in thqt time there. when a feud began between its citizenry and nobility. In 1379, 17 nobles were massacred in the town hall. </div>
+ </div>
+
+<div class="col" >
+<h1>Stella artois</h1>
+<img class="img-responive"  src="images/part_with_trees.jpg" alt="famous stella artois building in leuven" >
+<div class="caption"> Stella artois beer is famous all around the world which was first brewed by Brouwerij Artois in Leuven, Belgium, in 1926. Stella Artois is proud of our rich Belgian heritage. Stella Artois traces its origins to over 600 years ago.
+    </div>
+ </div>
+</div>
+    
+    
+        </div>
+    
+    <div class="footer"> &copy;Alisa Elshout </div>
+    </body>
+</html> 
